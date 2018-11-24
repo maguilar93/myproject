@@ -1,0 +1,80 @@
+body{
+/*	font-family: 'Quicksand', sans-serif;
+*/	font-family: 'KoHo', sans-serif;
+	text-align: center;
+}
+
+/* NAVBAR */
+#mobile-logo {
+	width: 30%;
+}
+
+#full-logo {
+	display: none;
+}
+
+.menu {
+	margin: 0;
+	padding:0;
+}
+
+.menu li, #lang {
+	list-style: none;
+	padding: 1em;
+	background-color: rgba(51, 50, 49, 1);
+	color: white;
+	border-bottom: solid 1px white;
+}
+
+.menu li:hover {
+	color: black;
+	border-bottom: solid 1px black;
+	cursor: pointer;
+}
+
+#lang {
+	display: none;
+}
+
+#intro-text {
+	display: none;
+}
+
+/* INTRO ME */
+#intro-me {
+	margin-top: 2em;
+	font-size: 25px;
+}
+
+/* ABOUT */
+.sections h3 {
+	font-size: 2em;
+}
+
+#first-col img {
+	height: 90%;
+	width: 90%;
+}
+
+#second-col span {
+	text-align: justify;
+	margin: 1.5em;
+	display: block;
+}
+
+/* PORTFOLIO */
+#portfolio-images img{
+	margin-bottom: 1.5em;
+	border: 1px solid darkgrey;
+	padding: 10px;
+}
+
+/* CONTACT */
+#contact {
+	margin-bottom: 3em;
+}
+
+.form div {
+	margin-bottom: 1.25em;
+}
+
